@@ -1,0 +1,28 @@
+.contenido-usuarios {
+    background: linear-gradient(180deg, #002f61 0%, #0476f2 100%);
+    min-height: 89vh;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(4, 118, 242, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tabla-header {
+    background: rgba(240, 149, 13, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 2px solid rgba(206, 240, 13, 0.7);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    user-select: none;
+}
+
+

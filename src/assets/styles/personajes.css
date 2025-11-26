@@ -1,0 +1,69 @@
+.contenido-personajes {
+    background: linear-gradient(180deg,rgba(0, 47, 97, 1) 0%, rgba(4, 118, 242, 1) 100%);
+    min-height: 89vh;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.modal-content {
+    background: transparent !important;
+    border: none;
+}
+
+.header-agregar {
+    background: rgba(13, 202, 240, 0.233); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(13, 202, 240);
+    color: white;
+}
+
+.body-agregar {
+    background: rgba(0, 0, 0, 0.13); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid rgba(13, 202, 240);
+    color: white;
+}
+
+.header-editar {
+    background: rgba(255, 193, 7, 0.288); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 193, 7);
+    color: white;
+}
+
+.body-editar {
+    background: rgba(0, 0, 0, 0.496); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid rgba(255, 193, 7);
+    color: white;
+}
+
+.btn-close {    
+    background-color: white;
+}
+
+.btn-personaje:active {
+    transform: scale(0.90); 
+}
+.bg-galaxia-morado {
+    background: radial-gradient(circle at 20% 20%, #2a0845, #6441a5); /* Morado oscuro a lavanda púrpura */
+    color: white;
+}
+.bg-galaxia-morado {
+    background: radial-gradient(circle at 20% 20%, #2a0845, #6441a5); /* Degradado morado espacial */
+    color: white;
+}
+.bg-galaxia-morado {
+    background: radial-gradient(circle at 20% 20%, #2a0845, #6441a5);
+    color: white;
+}
+.bg-galaxia-morado {
+    background: radial-gradient(circle at 20% 20%, #2a0845, #6441a5);
+    color: white;
+}

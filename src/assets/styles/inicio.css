@@ -1,0 +1,31 @@
+.contenido-principal {
+    position: relative;
+    z-index: 1;
+    min-height: 89vh;
+    padding: 30px 20px;
+    background: transparent; /* eliminamos gradiente para que no tape la imagen */
+    color: #003366; /* texto oscuro para que contraste si fondo es claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenido-principal::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: url('../img/collage3.png') no-repeat center center;
+    background-size: cover; /* que cubra todo el área */
+    opacity: 1; /* imagen completamente visible */
+    filter: none; /* sin filtro para no oscurecer */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+}

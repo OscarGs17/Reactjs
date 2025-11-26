@@ -1,0 +1,50 @@
+/* Imagen */
+img {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(102, 12, 91, 0.6);
+}
+
+/* Enlaces */
+.link {
+    color: #f0e9ff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link:hover {
+    color: #600c5b;
+    background-color: rgba(96, 12, 91, 0.15);
+    box-shadow: 0 4px 8px rgba(96, 12, 91, 0.3);
+}
+
+/* Íconos */
+.icono {
+    color: #f0e9ff;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.link:hover .icono {
+    color: #600c5b;
+}
+.contenedor-img img {
+  height: 50px;
+  width: auto;
+  image-rendering: auto;
+}
+

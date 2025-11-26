@@ -1,0 +1,141 @@
+/* Fondo principal dinámico y moderno */
+.contenido-login {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 40px 15px;
+    background: radial-gradient(circle at 20% 20%, #1f1c2c, #928dab);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Efecto de fondo animado */
+.contenido-login::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200%;
+    height: 200%;
+    background: url('../img/dedpool2.webp') no-repeat center;
+    background-size: cover;
+    opacity: 0.03;
+    animation: rotateBG 80s linear infinite;
+    z-index: 0;
+}
+
+@keyframes rotateBG {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Contenedor principal centrado */
+.contenedor-principal-form {
+    z-index: 2;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta de formulario con efecto neomorfismo */
+.contenedor-formulario {
+    width: 100%;
+    padding: 40px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.contenedor-formulario:hover {
+    transform: translateY(-5px);
+}
+
+.row-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Grupo de input animado */
+.group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.group input {
+    padding: 14px 18px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.group input:focus {
+    border-color: #00f2fe;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Etiqueta con efecto flotante */
+.group label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: rgba(31, 28, 44, 0.8);
+    padding: 0 6px;
+    font-size: 13px;
+    color: #a0c3ff;
+    font-weight: 600;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+/* Botón moderno */
+.boton-ingresar {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    border: none;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 242, 254, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.boton-ingresar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 242, 254, 0.5);
+}
+
+#btn-ingresar:active {
+    transform: scale(0.95);
+}
+.contenido-login {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 40px 15px;
+    background: radial-gradient(circle at 30% 30%, #2a0845, #6441a5); /* Fondo cambiado */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}

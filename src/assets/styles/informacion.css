@@ -1,0 +1,16 @@
+.contenido-info {
+    background: linear-gradient(180deg,rgba(0, 47, 97, 1) 0%, rgba(4, 118, 242, 1) 100%);
+    min-height: 89vh;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.contenedor-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: white;
+}

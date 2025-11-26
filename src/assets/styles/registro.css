@@ -1,0 +1,74 @@
+.contenido-registro {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    padding: 30px 15px;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    overflow: hidden;
+}
+
+/* Imagen sin transparencia */
+.contenido-registro::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 400px;
+    height: 400px;
+    background: url('../img/1.png') no-repeat center center;
+    background-size: contain;
+    z-index: 0; /* detrás del contenido */
+}
+
+.contenedor-principal-form {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.contenedor-formulario-registro {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    z-index: 1;
+}
+
+.row-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.group {
+    width: 100%;
+    max-width: 280px;
+}
+
+.boton-ingresar {
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-ingresar:hover {
+    background-color: #0056b3;
+}
+
+#btn-registro:active {
+    transform: scale(0.95); 
+}

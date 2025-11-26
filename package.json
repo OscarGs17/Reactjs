@@ -2,14 +2,22 @@
   "name": "peliculas",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://noveno.codeseiryu.com.mx/Oscar",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
     "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
+    "react-hook-form": "^7.56.4",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.6.0",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.21.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
